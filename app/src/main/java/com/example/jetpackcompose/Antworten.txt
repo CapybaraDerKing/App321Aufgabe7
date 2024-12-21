@@ -1,0 +1,38 @@
+Antwort
+
+Aufgabe 1
+
+1. Effiziente Nutzung von Ressourcen
+2. Lesbare und wartbare Syntax
+3.Einfache Verwaltung von Lebenszyklen
+4.Optimierte Ausführung -> leichte Fehlerbehandlung
+--> Benutzer Freundlicher umgang
+
+Aufgabe 2
+
+IO-lastige Operationen:
+Der Abruf von Daten über das Netzwerk ist eine IO-intensive Aufgabe, und Dispatchers.IO
+ist speziell für solche Operationen optimiert.
+
+Thread-Pool-Management:
+Dispatchers.IO verwendet einen Thread-Pool, der für parallele Netzwerk-
+oder Datenbankoperationen ideal ist.
+
+Effizienz:
+ Durch die Nutzung von Dispatchers.
+ IO wird verhindert, dass der Hauptthread blockiert wird, und die App bleibt reaktionsschnell.
+
+Aufgabe 3
+
+Musikwiedergabe im Hintergrund -> Z.B. Spotify -> Service läuft Unabhägich von der UI
+Ortungsdienste -> Um permanent standort zu haben, unabhägich von Nutzungsverhalten des Handy/Person
+
+
+Aufgabe 4
+
+Effiziente Nutzung von Ressourcen
+Einfache Fehlerbehandlung
+Reaktionsfähigkeit der App
+Nicht-blockierende Ausführung
+-> Bsp PopupService
+
